@@ -30,7 +30,7 @@ npm run lint
 npm test
 npm run build
 # 启动开发服务后进行浏览器验证
-npx playwright install chromium
+# 当前冒烟脚本使用本机 Google Chrome，请先安装 Chrome
 TEST_URL=http://localhost:5173 npm run smoke:gallery
 TEST_URL=http://localhost:5173 npm run smoke:rig
 ```

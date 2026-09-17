@@ -24,7 +24,7 @@ fi
 started=true
 compose up -d --wait --wait-timeout 120 || started=false
 for attempt in $(seq 1 30); do
-  if "$started" && curl -fsS "http://127.0.0.1:$APP_PORT/api/health" && curl -fsS "http://127.0.0.1:$APP_PORT/" -o /dev/null; then
+  if "$started" && curl --connect-timeout 2 --max-time 5 -fsS "http://127.0.0.1:$APP_PORT/api/health" && curl --connect-timeout 2 --max-time 5 -fsS "http://127.0.0.1:$APP_PORT/" -o /dev/null; then
     echo "Deployment healthy: $APP_ORIGIN"
     exit 0
   fi

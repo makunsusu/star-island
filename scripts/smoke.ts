@@ -25,7 +25,7 @@ try{
  await page.getByRole('button',{name:'开始冒险',exact:true}).click();
  for(let i=0;i<8;i++){const s=await state(),q=s.challenge.question;await page.getByRole('button',{name:`答案 ${q.a*q.b}`,exact:true}).click();if(i<7)await page.waitForTimeout(1100);}
  await expect(page.getByText('通关啦，冒险家！')).toBeVisible({timeout:8000});expect((await state()).progress.coins).toBe(41);console.log('PASS 浏览器注册 → 教学 → 赠装 → 地鼠通关 → 41币');
- const locked=await api('start',{level:18});expect(locked.status).toBe(403);const insufficient=await api('buy',{id:'iron'});expect(insufficient.status).toBe(400);
+ const locked=await api('start',{level:18});expect(locked.status).toBe(403);const insufficient=await api('buy',{id:'lion'});expect(insufficient.status).toBe(400);
  const buyId=randomUUID();const buys=await Promise.all([api('buy',{id:'star-wand'},buyId),api('buy',{id:'star-wand'},buyId)]);expect(buys.every(r=>r.status===200)).toBe(true);expect((await state()).progress.coins).toBe(21);expect((await api('equip',{id:'nezha'})).status).toBe(403);
  let start=await api('start',{level:2});const original=start.challenge;expect(original.question.mode).toBe(1);
  const q0=original.question;const concurrent=await Promise.all([api('answer',{challengeId:original.id,questionId:q0.id,value:q0.a*q0.b}),api('answer',{challengeId:original.id,questionId:q0.id,value:q0.a*q0.b})]);expect(concurrent.map(r=>r.status).sort()).toEqual([200,409]);expect((await state()).challenge.index).toBe(1);
@@ -35,12 +35,13 @@ try{
  await api('buy',{id:'nezha'});await api('equip',{id:'nezha'});await page.reload();await expect(page.locator('.hero-name h2')).toHaveText('哪吒');
  await page.getByRole('button',{name:'星星商城',exact:true}).click();await page.locator('.product-card').filter({hasText:'吕布'}).click();expect((await state()).progress.equipment.body).toBe('nezha');await page.getByRole('button',{name:'设为我的心愿',exact:true}).click();await page.getByRole('button',{name:'回到冒险',exact:true}).click();await expect(page.locator('.hero-name h2')).toHaveText('哪吒');await expect(page.locator('.wish-bar')).toContainText('吕布');
  const other=await browser.newContext();await other.request.post(base+'/api/auth/login',{data:{email,password}});const remote=await (await other.request.get(base+'/api/state')).json();expect(remote.progress.equipment.body).toBe('nezha');expect(remote.progress.stars['18']).toBe(3);await other.close();
- await api('buy',{id:'iron'});await api('equip',{id:'iron'});await page.reload();await expect(page.locator('.hero-name h2')).toHaveText('钢铁侠');await expect(page.locator('.character-stage .bone-avatar[data-skin="iron"]')).toBeVisible();
+ expect((await api('buy',{id:'iron'})).status).toBe(409);
+ await api('buy',{id:'galaxy'});await api('equip',{id:'galaxy'});await page.reload();await expect(page.locator('.hero-name h2')).toHaveText('银河机甲');await expect(page.locator('.character-stage .bone-avatar[data-skin="galaxy"]')).toBeVisible();
  await api('equip',{id:'star-wand'});const mixed=await state();expect(mixed.progress.equipment.hand).toBe('star-wand');await api('settings',{sound:false,reducedMotion:true});
  await page.reload();await expect(page.locator('html')).toHaveClass('reduced-motion');await page.getByRole('button',{name:'我的衣柜',exact:true}).click();await expect(page.locator('.product-card').filter({hasText:'哪吒'})).toBeVisible();
  await page.getByRole('button',{name:'星星商城',exact:true}).click();await page.waitForTimeout(300);await page.screenshot({path:'work/shop-1366.png',fullPage:true});
  await page.setViewportSize({width:1920,height:1080});await page.getByRole('button',{name:'冒险地图',exact:true}).click();await page.screenshot({path:'work/home-1920.png',fullPage:true});
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'work/home-mobile.png',fullPage:true});expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);
  const ledger=await pool.query('SELECT SUM(delta)::integer total FROM coin_ledger l JOIN accounts a ON a.id=l.user_id WHERE a.email=$1',[email]);expect(ledger.rows[0].total).toBe((await state()).progress.coins);
- expect(errors).toEqual([]);console.log('PASS 兑换/试穿/换装/心愿/矢量机甲/跨设备同步/减少动效/3尺寸/金币流水');
+ expect(errors).toEqual([]);console.log('PASS 兑换/试穿/换装/心愿/精绘机甲/跨设备同步/减少动效/3尺寸/金币流水');
 }finally{await browser.close();await pool.query('DELETE FROM accounts WHERE email=$1',[email]);await pool.end();}
