@@ -35,7 +35,7 @@ TEST_URL=http://localhost:5173 npm run smoke:gallery
 TEST_URL=http://localhost:5173 npm run smoke:rig
 ```
 
-浏览器验证会创建测试账号，请使用测试数据库。图片生成原稿、截图和本机图库同步结果位于未提交的 `work/`；运行应用所需资产均包含在 `public/`。可选图库上传脚本依赖本机安装的图库技能，也可用 `GALLERY_UPLOADER` 指定上传器路径。
+浏览器验证会创建测试账号，请使用测试数据库；脚本的 `DATABASE_URL` 必须与 `TEST_URL` 所对应服务器的数据库一致（用于金币流水校验和测试账号清理）。图片生成原稿、截图和本机图库同步结果位于未提交的 `work/`；运行应用所需资产均包含在 `public/`。可选图库上传脚本依赖本机安装的图库技能，也可用 `GALLERY_UPLOADER` 指定上传器路径。
 
 ## NAS Jenkins 部署
 
