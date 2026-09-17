@@ -1,0 +1,46 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: star
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+      POSTGRES_DB: star_island
+    volumes:
+      - star-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U star -d star_island]
+      interval: 5s
+      retries: 10
+    restart: unless-stopped
+  app:
+    build: .
+    environment:
+      DATABASE_URL: postgres://star:${POSTGRES_PASSWORD}@db:5432/star_island
+      NODE_ENV: production
+      PORT: 3100
+      APP_ORIGIN: https://${DOMAIN:?Set DOMAIN}
+      TRUST_PROXY: '1'
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASS: ${SMTP_PASS:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+  web:
+    image: caddy:2-alpine
+    environment:
+      DOMAIN: ${DOMAIN}
+    ports: ['80:80', '443:443']
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [app]
+    restart: unless-stopped
+volumes:
+  star-data:
+  caddy-data:
+  caddy-config:

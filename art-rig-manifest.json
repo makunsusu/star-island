@@ -1,0 +1,21 @@
+{
+  "model": "codex-image-generation",
+  "userBrief": "换装后尽量达到第一版生成的静态图片效果，参考哪吒图。人物和时装要有粒子特效、衣带飘动、眨眼、脸红、愤怒。采用骨骼动画，支持部件换装，所有部件关节位置对齐。整套皮肤一键切换，单独替换上衣、头饰，自由搭配。",
+  "files": [
+    "work/art-source/accessories-atlas.png",
+    "work/art-source/base-atlas.png",
+    "work/art-source/bear-atlas.png",
+    "work/art-source/frog-atlas.png",
+    "work/art-source/galaxy-atlas.png",
+    "work/art-source/guanyu-atlas.png",
+    "work/art-source/ice-atlas.png",
+    "work/art-source/lion-atlas.png",
+    "work/art-source/lubu-atlas.png",
+    "work/art-source/monkey-atlas.png",
+    "work/art-source/nezha-atlas.png",
+    "work/art-source/rabbit-atlas.png",
+    "work/art-source/strawberry-atlas.png"
+  ],
+  "iron": "图片服务 output moderation_blocked，保留旧素材，未纳入精绘完成数量",
+  "renderer": "独立位图部件绑定 SVG 层级骨骼，表情采用头部关键帧"
+}

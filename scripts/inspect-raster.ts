@@ -1,0 +1,3 @@
+import {chromium,expect} from '@playwright/test';
+const browser=await chromium.launch({channel:'chrome'});const page=await browser.newPage({viewport:{width:1366,height:900},deviceScaleFactor:2,reducedMotion:'reduce'});
+await page.goto('http://localhost:5184');await page.getByRole('button',{name:'星星商城',exact:true}).click();await page.locator('.product-card').filter({hasText:'哪吒'}).click();await expect(page.locator('.fitting-stage [data-renderer="raster-bones"]')).toBeVisible();await page.waitForTimeout(400);await page.locator('.fitting-stage').screenshot({path:'work/nezha-stage.png'});await page.locator('.fitting-card').screenshot({path:'work/nezha-raster.png'});await browser.close();
