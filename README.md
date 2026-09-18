@@ -76,3 +76,11 @@ IMAGE_TAG=manual-001 bash deploy/nas.sh
 原有 `compose.yaml` 提供 PostgreSQL + 应用 + Caddy。设置 `DOMAIN` 和随机十六进制 `POSTGRES_PASSWORD`，确保域名解析及 80/443 端口可用，然后执行 `docker compose up -d --build`。不要与 NAS Compose 同时部署为同一实例。
 
 `.env`、数据库目录、私钥、构建产物和本机工作文件均不提交 Git。
+
+### 镜像加速服务返回 401
+
+本项目的 Node 和 PostgreSQL 默认使用 Docker 官方镜像在 ECR Public 的发布地址（`public.ecr.aws/docker/library/`），绕过 NAS 为 Docker Hub 配置的加速服务。例如 `docker.fnnas.com` 返回 401 时，无需修改 NAS 全局配置或重启 Docker。
+
+更新到最新 `main` 后重新执行 Jenkins「Build with Parameters」，沿用现有参数。不要使用旧构建的 Replay，它可能继续使用旧版本代码。
+
+如 NAS 无法访问 ECR Public，可在 NAS 的 `config/runtime.env` 中设置 `NODE_IMAGE` 和 `POSTGRES_IMAGE` 为已验证可访问的镜像地址；请保持 Node 24、PostgreSQL 17 版本。恢复 Docker Hub 时可分别设为 `node:24-alpine` 和 `postgres:17-alpine`，前提是管理员已修复加速服务。已有数据库目录和密码保持不变。

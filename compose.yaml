@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:17-alpine
+    image: ${POSTGRES_IMAGE:-public.ecr.aws/docker/library/postgres:17-alpine}
     environment:
       POSTGRES_USER: star
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
@@ -13,7 +13,10 @@ services:
       retries: 10
     restart: unless-stopped
   app:
-    build: .
+    build:
+      context: .
+      args:
+        NODE_IMAGE: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:24-alpine}
     environment:
       DATABASE_URL: postgres://star:${POSTGRES_PASSWORD}@db:5432/star_island
       NODE_ENV: production
