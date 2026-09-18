@@ -20,7 +20,7 @@ services:
       context: .
       args:
         NODE_IMAGE: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:24-alpine}
-    ports: ['${APP_PORT:-18081}:3100']
+    ports: ['${APP_PORT:-18082}:3100']
     environment:
       DATABASE_URL: postgres://star:${POSTGRES_PASSWORD}@db:5432/star_island
       NODE_ENV: production

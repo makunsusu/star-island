@@ -43,7 +43,7 @@ TEST_URL=http://localhost:5173 npm run smoke:rig
 
 1. Jenkins 新建 Pipeline，选择「Pipeline script from SCM」，Git 仓库为 `git@github.com:makunsusu/star-island.git`，分支 `*/main`，脚本路径 `Jenkinsfile`。配置 GitHub 读取凭据；这是与 NAS SSH 凭据不同的用途。
 2. NAS SSH 凭据默认复用 `fn-nas-ssh`。Jenkins 节点需要 Git、SSH、rsync；NAS 需要 Bash、rsync、curl、Docker 和支持 `up --wait` 的 Compose v2。NAS 用户需要 Docker 权限。
-3. 首次构建注册参数，核对 NAS 地址、目录、端口和 `APP_ORIGIN` 后执行。默认端口 `18081`；默认地址 `http://192.168.10.70:18081`。通过 Tailscale 访问时将 `APP_ORIGIN` 改为对应地址，例如 `http://100.77.63.110:18081`。访问地址必须与配置一致。
+3. 首次构建注册参数，核对 NAS 地址、目录、端口和 `APP_ORIGIN` 后执行。默认端口 `18082`；默认地址 `http://mk-nas:18082`。通过 Tailscale 访问时将 `APP_ORIGIN` 改为对应地址，例如 `http://100.77.63.110:18082`。访问地址必须与配置一致。
 4. 构建成功后访问参数中设置的地址，注册新账号。NAS 使用独立数据库，不会导入开发环境账号。
 
 默认独立目录：
@@ -65,7 +65,7 @@ TEST_URL=http://localhost:5173 npm run smoke:rig
 
 ```sh
 DATA_DIR=/vol3/@appdata/my_apps/appdata/star-island \
-APP_PORT=18081 APP_ORIGIN=http://192.168.10.70:18081 \
+APP_PORT=18082 APP_ORIGIN=http://mk-nas:18082 \
 IMAGE_TAG=manual-001 bash deploy/nas.sh
 ```
 

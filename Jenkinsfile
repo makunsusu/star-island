@@ -7,8 +7,8 @@ pipeline {
     string(name: 'SSH_CREDENTIALS_ID', defaultValue: 'fn-nas-ssh', description: 'NAS SSH 私钥凭据')
     string(name: 'DEPLOY_DIR', defaultValue: '/vol3/@appdata/my_apps/star-island/repo', description: '独立代码目录')
     string(name: 'DATA_DIR', defaultValue: '/vol3/@appdata/my_apps/appdata/star-island', description: '独立持久化目录')
-    string(name: 'APP_PORT', defaultValue: '18081', description: 'NAS 访问端口')
-    string(name: 'APP_ORIGIN', defaultValue: 'http://192.168.10.70:18081', description: '浏览器实际使用的完整访问地址，不带末尾斜杠')
+    string(name: 'APP_PORT', defaultValue: '18082', description: 'NAS 访问端口')
+    string(name: 'APP_ORIGIN', defaultValue: 'http://mk-nas:18082', description: '浏览器实际使用的完整访问地址，不带末尾斜杠')
   }
   stages {
     stage('检查参数') {
