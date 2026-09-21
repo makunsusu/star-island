@@ -5881,6 +5881,116 @@
         310
       ],
       "registration": "recovered-from-source"
+    },
+    "/art/rig-v4/basearms/torso.webp": {
+      "size": [
+        520,
+        475
+      ],
+      "canvas": [
+        520,
+        475
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "source": "/art/rig-v4/source/basearms.png",
+      "rect": [
+        40,
+        50,
+        520,
+        475
+      ],
+      "registration": "source-silhouette-mask"
+    },
+    "/art/rig-v4/basearms/upperL.webp": {
+      "size": [
+        260,
+        430
+      ],
+      "canvas": [
+        260,
+        430
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "source": "/art/rig-v4/source/basearms.png",
+      "rect": [
+        680,
+        70,
+        260,
+        430
+      ],
+      "registration": "source-silhouette-mask"
+    },
+    "/art/rig-v4/basearms/upperR.webp": {
+      "size": [
+        250,
+        430
+      ],
+      "canvas": [
+        250,
+        430
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "source": "/art/rig-v4/source/basearms.png",
+      "rect": [
+        1120,
+        70,
+        250,
+        430
+      ],
+      "registration": "source-silhouette-mask"
+    },
+    "/art/rig-v4/basearms/foreL.webp": {
+      "size": [
+        245,
+        430
+      ],
+      "canvas": [
+        245,
+        430
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "source": "/art/rig-v4/source/basearms.png",
+      "rect": [
+        180,
+        530,
+        245,
+        430
+      ],
+      "registration": "source-silhouette-mask"
+    },
+    "/art/rig-v4/basearms/foreR.webp": {
+      "size": [
+        245,
+        430
+      ],
+      "canvas": [
+        245,
+        430
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "source": "/art/rig-v4/source/basearms.png",
+      "rect": [
+        660,
+        530,
+        245,
+        430
+      ],
+      "registration": "source-silhouette-mask"
     }
   }
 }

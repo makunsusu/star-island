@@ -1,3 +1,4 @@
+import {baseArmParts} from './limbRegistration';
 // Grip coordinates are measured in the trimmed source image, not its SVG viewport.
 // Keeping the source ratio avoids the invisible padding introduced by `meet`.
 export type HandAttachment={width:number;height:number;gripX:number;gripY:number;angle:number};
@@ -42,6 +43,7 @@ export const palmSources:Record<string,readonly[number,number,number,number]>={
  nezha:[160,257,.70,.78],lubu:[156,235,.62,.82],guanyu:[192,232,.24,.78],monkey:[184,261,.61,.79],galaxy:[173,252,.29,.79],ice:[129,254,.43,.80],lion:[161,255,.33,.79],
 };
 export function palmPoint(skin:string):readonly[number,number]{
+ if(skin==='base')return [0,baseArmParts.foreR.length];
  const [sw,sh,u,v]=palmSources[skin]??palmSources.base!;
  const soft=['base','rabbit','strawberry','bear','frog'].includes(skin);
  const [x,y,w,h]=soft?[-24,-17,48,76]:[-20,-8,40,64];

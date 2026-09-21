@@ -4,6 +4,8 @@ import {accessories,type Equipment} from '../../shared/catalog';
 import {hands,backBoxes,palmPoint,clothingFits,type Box} from './attachments';
 import {JOINTS,type Emotion,type Pose} from './pose';
 import Sprite from './RegisteredSprite.vue';
+import BoneSprite from './BoneSprite.vue';
+import {baseTorsoOutline} from './limbRegistration';
 import {HEAD,hairBoxes,hatBoxes,isHood,faceBoxes} from './registration';
 const props=defineProps<{equipment:Equipment;pose:Pose;emotion:Emotion;time:number;debug?:boolean}>();
 const uid=useId();
@@ -35,6 +37,7 @@ const foreBox=computed<Box>(()=>softSleeves.value?[-24,-17,48,76]:[-20,-8,40,64]
 <template>
 <svg viewBox="-50 -140 460 700" class="raster-canvas" aria-hidden="true" data-renderer="registered-raster" data-rig-version="4">
  <defs>
+  <clipPath :id="uid+'-base-torso'"><path :d="baseTorsoOutline"/></clipPath>
   <clipPath :id="uid+'-wrist-cut'"><rect x="-40" y="-30" width="80" :height="Math.max(15,palm[1]+21)"/></clipPath>
   <clipPath :id="uid+'-face-outline'"><path d="M0 -181C-51 -181-80 -147-77 -89C-98 -103-103 -77-89 -54Q-83 -48-75 -51C-69 -27-39 -18-20 -17L-20 -8Q-24 -4-20 0Q0 8 20 0Q24 -4 20 -8L20 -17C39 -18 69 -27 75 -51Q83 -48 89 -54C103 -77 98 -103 77 -89C80 -147 51 -181 0 -181Z"/></clipPath>
   <clipPath :id="uid+'-cape-collar'"><rect x="-48" y="-32" width="96" height="64"/></clipPath>
@@ -57,14 +60,17 @@ const foreBox=computed<Box>(()=>softSleeves.value?[-24,-17,48,76]:[-20,-8,40,64]
    </g>
    <Sprite data-layer="pants" :src="equipment.pants==='strawberry'?'/art/rig-v4/lower/strawberry-pants.webp':src(equipment.pants,'pants')" :box="[-74,equipment.pants==='strawberry'?58:equipment.pants==='base'?68:74,148,equipment.pants==='base'?114:112]" :debug="debug"/>
    <Sprite v-if="hasSkirt" data-layer="skirt" src="/art/rig-v4/lower/strawberry-skirt.webp" :box="[-82,60,164,100]"/>
-   <Sprite :clip-path="strawberryDress?`url(#${uid}-bodice)`:undefined" data-layer="top" :src="equipment.top==='rainbow-shirt'?accessory(equipment.top):src(topSkin,'top')" :box="[-69,-16,138,topSkin==='base'?108:120]" :debug="debug"/>
+   <Sprite v-if="topSkin!=='base'||equipment.top==='rainbow-shirt'" :clip-path="strawberryDress?`url(#${uid}-bodice)`:undefined" data-layer="top" :src="equipment.top==='rainbow-shirt'?accessory(equipment.top):src(topSkin,'top')" :box="[-69,-16,138,topSkin==='base'?108:120]" :debug="debug"/>
+   <g v-if="topSkin==='base'&&equipment.top!=='rainbow-shirt'" transform="translate(-75 -16) scale(.26)" data-layer="top"><image href="/art/rig-v4/basearms/torso.webp" width="520" height="475" :clip-path="`url(#${uid}-base-torso)`"/></g>
    <Sprite v-if="equipment.top==='cape'" :clip-path="`url(#${uid}-cape-collar)`" :src="accessory('cape')" :box="capeBox" data-layer="cape-collar"/>
    <g v-if="equipment.back==='star-pack'" data-layer="backpack-straps" fill="none" stroke-linecap="round"><path d="M-38 -6Q-49 25-37 57M38 -6Q49 26 37 57" stroke="#795330" stroke-width="6"/><path d="M-38 -6Q-49 25-37 57M38 -6Q49 26 37 57" stroke="#d5ae6b" stroke-width="3"/></g>
    <g v-for="side in [-1,1]" :key="'arm'+side" :data-bone="side<0?'shoulder-left':'shoulder-right'" :transform="`${point(side<0?JOINTS.shoulderL:JOINTS.shoulderR)} rotate(${side<0?Math.max(-18,Math.min(55,pose.armL)):armRight})`">
-    <Sprite :src="src(topSkin,side<0?'armL':'armR')" :box="softSleeves?[-24,-8,48,58]:[-21,-8,42,64]" :debug="debug"/>
+    <BoneSprite v-if="topSkin==='base'" :part="side<0?'upperL':'upperR'" :debug="debug"/>
+    <Sprite v-else :src="src(topSkin,side<0?'armL':'armR')" :box="softSleeves?[-24,-8,48,58]:[-21,-8,42,64]" :debug="debug"/>
     <g :data-bone="side<0?'elbow-left':'elbow-right'" :transform="`${point(JOINTS.elbow)} rotate(${side<0?Math.max(-24,Math.min(12,pose.foreL)):foreRight})`">
      <g v-if="side===1&&held" data-bone="wrist-right" :transform="point(palm)"><g data-attachment="hand" :transform="`rotate(${held.angle})`"><Sprite :src="handSrc" :box="[-held.gripX*held.width,-held.gripY*held.height,held.width,held.height]" :debug="debug"/></g></g>
-     <Sprite :clip-path="side===1&&held?`url(#${uid}-wrist-cut)`:undefined" data-layer="forearm-front" :src="src(topSkin,side<0?'foreL':'foreR')" :box="foreBox" :debug="debug"/>
+     <BoneSprite v-if="topSkin==='base'" :part="side<0?'foreL':'foreR'" :clip-path="side===1&&held?`url(#${uid}-wrist-cut)`:undefined" :debug="debug"/>
+     <Sprite v-else :clip-path="side===1&&held?`url(#${uid}-wrist-cut)`:undefined" data-layer="forearm-front" :src="src(topSkin,side<0?'foreL':'foreR')" :box="foreBox" :debug="debug"/>
      <g v-if="side===1&&held" :transform="point(palm)" data-layer="gripping-fingers"><Sprite src="/art/rig-v4/detail/grip-right.webp" :box="[-17.6,-21.3,32,38]"/></g>
      <circle v-if="debug" :cx="side===1?palm[0]:0" :cy="side===1?palm[1]:0" r="3" fill="#00cddd"/>
     </g>

@@ -16,3 +16,17 @@ test('显式注册保持长宽比，连接点与矩形变换一致',()=>{
 test('改变头饰保留发型身体及完整旧存档',()=>{
  for(const o of outfits){const e={...suit(o.id),hat:'crown'};const normalized=normalizeEquipment(e);assert.equal(normalized.hair,o.id);assert.equal(normalized.body,o.id);assert.deepEqual(normalized,e);}
 });
+
+test('基础装上臂、前臂的源关节与掌心连接点一致',async()=>{
+ const {baseArmParts,boneTransform}=await import('../src/rig/limbRegistration.ts');
+ const {palmPoint}=await import('../src/rig/attachments.ts');
+ for(const part of Object.values(baseArmParts)){
+  const [a,b,c,d,e,f]=boneTransform(part.start,part.end,part.length);
+  for(const [point,expected] of [[part.start,0],[part.end,part.length]] as const){
+   assert(Math.abs(a!*point[0]+c!*point[1]+e!)<1e-8);
+   assert(Math.abs(b!*point[0]+d!*point[1]+f!-expected)<1e-8);
+  }
+  assert(assets[`/art/rig-v4/basearms/${part.src}.webp`]);
+ }
+ assert.deepEqual(palmPoint('base'),[0,baseArmParts.foreR.length]);
+});

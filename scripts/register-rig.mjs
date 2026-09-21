@@ -40,3 +40,5 @@ for(const id of [...ids,'accessories']){
 await writeFile('src/rig/assets.json',JSON.stringify(manifest,null,2)+'\n');
 // The shared registration data is compiled into the client; source files remain reproducible.
 await writeFile('public/art/rig-v4/source/provenance.json',JSON.stringify({version:4,model:'codex-image-generation',sourcePurpose:'独立精绘头饰、头发和统一表情头像；所有裁切保留原始画布与偏移',sources:JSON.parse(await readFile('art-rig-v4-prompts.json','utf8'))},null,2)+'\n');
+
+await import('./prepare-base-arms.mjs');

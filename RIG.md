@@ -41,3 +41,7 @@ TEST_URL=http://localhost:5184 npm run check:rig-matrix
 真实后端测试须指向隔离数据库：`RIG_TEST_DATABASE_URL` 用于 `smoke:rig`；`DATABASE_URL` 用于 `smoke:gallery`。数据库必须与测试服务器一致，不要对生产数据库运行种子测试。`WEBKIT=1 npm run check:devices` 需要先安装 Playwright WebKit。
 
 矩阵数值检查只说明图片存在、变换有效，不能替代连接、比例和遮挡的人工验收。发布进度与未验证项见 `QA-V4.md`。
+
+## 基础装袖口修复
+
+旧基础装的 torso、arm、fore 三份素材都包含袖子，且轴向不同，直接叠加会产生重复空袖口。基础装已重制为无袖躯干、单份带袖上臂、纯皮肤前臂；使用 `BoneSprite.vue` 和 `limbRegistration.ts` 的源像素肩肘掌心登记。两点变换将源关节映射到目标骨段，避免用外接矩形中心猜测关节。新源图未生成有效透明背景，轮廓蒙版与原始像素坐标共同保存；没有将矢量绘图替代原画。`prepare-base-arms.mjs` 可复现切片。其余套装暂保留旧手臂素材，不能由基础装修复推断全部套装已完成同类验收。
