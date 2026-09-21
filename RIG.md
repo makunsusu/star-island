@@ -1,38 +1,43 @@
-# 精绘位图骨骼
+# 精绘分层角色 v4
 
-src/Avatar.vue 管理动画时钟、表情与可见性；src/rig/RasterRig.vue 将独立位图绑定到父子关节。姿态仍由 pose.ts 计算。普通待机仅轻微呼吸摇头，表情约 2.2 秒恢复；系统与账号减少动效均可停止运动。
+`Avatar.vue` 管理动画时钟、表情和可见性，`RasterRig.vue` 将位图绑定到 `pose.ts` 的共享关节。首页、商城、关卡和结算使用同一个组件。此实现为 SVG 父子关节变换，不是 Spine 网格蒙皮，不支持大幅转身。
 
-## 实际完成范围
+## 坐标、部件与遮挡
 
-基础装和 11 套主题装使用精绘素材；钢铁侠缺少合格精绘素材，展示“精绘升级中”占位，暂停新兑换；原所有权和存档保留。头部目前是四张关键表情图，未拆成独立眼口发丝。六类混搭为头饰、上衣、下装、鞋子、背饰、手持。原九槽数据保留兼容，发型/身体/独立裙层不对外提供未完成的编辑按钮。
+- `registration.ts` 负责原图尺寸到局部矩形的显式变换、头部眼线、颈点、发型与头饰范围。`RegisteredSprite.vue` 把外部属性显式绑定到 `<image>`；组件还有调试矩形，不能依赖多根节点自动继承 `clip-path`。
+- `assets.json` 是版本 4 资源清单。新增图集记录原始画布、切片矩形和裁切偏移。旧资源从原图回溯裁切信息，仅尺寸完全匹配时登记；不匹配的条目明确标记未恢复。
+- 动画与渲染共同读取 `JOINTS`；局部肩、肘、颈、髋坐标不再各自维护。武器读取 `attachments.ts` 的握点，绑定到实际上衣对应的前臂；握持手指绘制在武器前。
+- 头发与头饰独立；统一头像保持脸型，表情采用登记到同一眼线的局部遮挡层。眨眼使用闭眼素材。头套用蒙版限制头发外露，关羽长须独立前层。
+- 披风分为背后主体和前方领口，围巾贴合实际承载上衣。草莓上衣裁掉重复裙摆。长武器和混搭限制关节幅度，完整套装仍使用自身动作。
+- 九槽存档和编辑入口保留；`body` 是配饰上衣的承载衣装，常规 `top` 自带袖子。草莓裙子和短裤为独立新素材，其余没有裙装的套装裙槽代表无额外裙层。
+- 钢铁侠保持未开放；不修改商品 ID、金币、所有权或购买接口。
 
-## 素材准备
+## 原画与复现
 
-图集在 work/art-source，生成说明在 art-rig-manifest.json。scripts/prepare-raster-rig.mjs 按实际图集行边界切片，scripts/clean-sprite.mjs 清除邻格不相连的碎片，生成 public/art/rig 下的 WebP。配饰使用 prepare-accessories.mjs。不要裁切一张完整角色图来冒充独立部件。
+新图集在 `public/art/rig-v4/source/`，提示词与模型来源见 `art-rig-v4-prompts.json` 和 `source/provenance.json`。执行 `npm run assets:register` 重建新图集切片和资源清单。头像原图带背景，使用明确的轮廓蒙版；不是原生透明分层文件。旧部件图集来源仍在各角色 `source.json`。
 
-## 关节与遮挡
+## 开发检查台
 
-画布 viewBox 为 (-16,-24,392,550)，为翎羽与武器预留边界。根节点 (180,241)，肩相对躯干 (±57,8)，肘相对肩 (0,35)，掌心挂点相对肘 (0,43)。上衣遮住接缝，手持物先画、前臂与手后画。头饰在头部骨骼内随头转动，小配饰保留当前肖像，换其他套装的帽子时使用基础肖像避免双帽重叠。关羽胡须和吕布长翎单独校准头部边界。
+开发服务器打开 `/scripts/fixtures/rig-lab.html`，支持全部已开放套装、九槽、表情、固定时间、骨骼点和部件边界。查询参数示例：
 
-当前图集部件受原画视角影响，并非网格蒙皮或 Spine 导出；大幅转身尚不支持。新增资产需要逐套校准，不应只套用统一缩放就宣称视觉验收通过。
+- `?skin=nezha&time=4.37`：闭眼帧。
+- `?skin=lubu&emotion=happy&age=.85&time=1&debug=1`：动作中间帧与锚点。
+- `?matrix=goggles`：所有角色佩戴护目镜。
+- `?hair=guanyu&top=rabbit&pants=lubu&hand=guanyu&back=ice`：极端混搭。
 
-## 验证
+检查台不作为生产构建入口。
 
-npm run lint、npm run build、npm test；RIG_TEST_DATABASE_URL 指向隔离测试数据库后执行 npm run smoke:rig，覆盖表情、肩肘连接、试穿隔离、上衣头饰混搭、跨会话同步及答题反馈。scripts/inspect-costumes.ts 输出实际网页试穿总览，并检查图片请求失败。
+## 验证命令
 
-`npx tsx scripts/smoke-raster-mix.ts` 在指定隔离数据库下验证三组六类混搭、实际图片来源、保存一致性与余额不变，并输出网页截图。草莓套装裁掉上衣素材重复的裙摆，由下装提供连续裙身；星星杖采用独立握持偏移。
+```sh
+npm run lint
+npm test
+npm run build
+TEST_URL=http://localhost:5184 npm run check:responsive
+TEST_URL=http://localhost:5184 npm run check:devices
+TEST_URL=http://localhost:5184 npm run check:rig-matrix
+```
 
-## 逐件校准（2026-09-17）
+真实后端测试须指向隔离数据库：`RIG_TEST_DATABASE_URL` 用于 `smoke:rig`；`DATABASE_URL` 用于 `smoke:gallery`。数据库必须与测试服务器一致，不要对生产数据库运行种子测试。`WEBKIT=1 npm run check:devices` 需要先安装 Playwright WebKit。
 
-`attachments.ts` 为 11 件套装手持物和 3 件独立手持物分别记录源图宽高、握持点与角度，绕握持点继承前臂运动。背饰分别定义轮廓范围；护目镜根据兔帽、蛙帽、关羽胡须、吕布翎冠的眼线补偿。配饰图集使用手动量取的非等距切片，修复气球、魔杖、花束顶部裁切和翅膀串图。
-
-`audit-accessories.ts` 检查基础装及哪吒的全部 12 配饰，`AUDIT_HEADS=1` 扩展到 12 个头型的三种头饰；输出逐件截图供人工检查。`check-grips.ts` 检查 11 套手持物在三种表情动作下的屏幕握持点，允许误差小于 0.01 像素。自动断言仅证明挂点一致，不替代截图中的尺寸与遮挡检查。
-
-## 第二轮配饰适配
-
-- 生成两张无头饰表情图集（内置图像工具，模型记录 codex-image-generation），为 10 个角色提供 40 个 clean 表情部件。原套装肖像保留；小配饰或卸帽时使用 clean 肖像，避免冠上加冠、眼镜叠眼镜。哪吒保留双髻和发带，基础角色本来无帽。
-- 套装头饰使用对应完整肖像，不再把不同视角的帽子图贴到基础角色头上。当前头部仍是关键帧肖像，不是独立头发/眼口骨骼。
-- 掌心位置按每张前臂原图测量，并计算 SVG `meet` 的真实留白；不再以固定 (0,43) 作为所有角色的掌心。动作测试直接从前臂图内掌心与武器握柄计算屏幕距离。
-- 彩虹上衣同步使用基础布料袖子。披风排在手臂前面的绘制阶段，手臂与武器显示在披风之上；围巾按套装领口适配。背包贴身并有肩带，背包不跟随飘带摆动。
-- `scripts/audit-matrix.ts` 使用与游戏相同的 Avatar 组件检查 12 角色 × 12 配饰，共 144 组合。`work/rig-audit.html` 是开发用比较页面，不参与生产构建。`work/matrix/` 保存每种配饰的全角色截图。
-- 图集、生成提示词和模型信息在 `work/clean-heads-manifest.json`，切片脚本为 `scripts/prepare-clean-heads.mjs`。图库上传两张原图返回 ECONNRESET，无法确认服务器是否入库。
+矩阵数值检查只说明图片存在、变换有效，不能替代连接、比例和遮挡的人工验收。发布进度与未验证项见 `QA-V4.md`。

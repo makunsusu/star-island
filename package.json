@@ -11,7 +11,11 @@
     "test": "tsx --test tests/*.test.ts",
     "smoke:gallery": "tsx scripts/smoke.ts",
     "sync:gallery": "tsx scripts/sync-gallery.ts",
-    "smoke:rig": "tsx scripts/smoke-rig.ts"
+    "smoke:rig": "tsx scripts/smoke-rig.ts",
+    "assets:register": "node scripts/register-rig.mjs",
+    "check:responsive": "tsx scripts/check-responsive.ts",
+    "check:devices": "tsx scripts/check-device-flows.ts",
+    "check:rig-matrix": "tsx scripts/check-rig-matrix.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",

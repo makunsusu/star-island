@@ -84,3 +84,7 @@ IMAGE_TAG=manual-001 bash deploy/nas.sh
 更新到最新 `main` 后重新执行 Jenkins「Build with Parameters」，沿用现有参数。不要使用旧构建的 Replay，它可能继续使用旧版本代码。
 
 如 NAS 无法访问 ECR Public，可在 NAS 的 `config/runtime.env` 中设置 `NODE_IMAGE` 和 `POSTGRES_IMAGE` 为已验证可访问的镜像地址；请保持 Node 24、PostgreSQL 17 版本。恢复 Docker Hub 时可分别设为 `node:24-alpine` 和 `postgres:17-alpine`，前提是管理员已修复加速服务。已有数据库目录和密码保持不变。
+
+## 移动端与角色预览版本
+
+角色分层、固定帧检查台和开发验证方法见 [RIG.md](RIG.md)，实际测试范围与待验收项见 [QA-V4.md](QA-V4.md)。响应式规则集中在 `src/responsive.css`，覆盖手机竖屏、平板和低高度横屏。预览阶段不迁移数据库，不改变已有账号、商品 ID 或金币。

@@ -1,0 +1,5886 @@
+{
+  "version": 4,
+  "units": "source-pixels",
+  "assets": {
+    "/art/rig-v4/headwear/base.webp": {
+      "size": [
+        346,
+        228
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        16,
+        102
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/rabbit.webp": {
+      "size": [
+        325,
+        334
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        14,
+        21
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        362,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/strawberry.webp": {
+      "size": [
+        341,
+        240
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        20,
+        78
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        724,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/bear.webp": {
+      "size": [
+        312,
+        276
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        25,
+        65
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        1086,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/frog.webp": {
+      "size": [
+        316,
+        313
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        30,
+        27
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        0,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/nezha.webp": {
+      "size": [
+        357,
+        249
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        0,
+        72
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        362,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/lubu.webp": {
+      "size": [
+        346,
+        333
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        16,
+        4
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        724,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/guanyu.webp": {
+      "size": [
+        351,
+        312
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        5,
+        27
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        1086,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/monkey.webp": {
+      "size": [
+        355,
+        355
+      ],
+      "canvas": [
+        362,
+        386
+      ],
+      "trim": [
+        7,
+        3
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        0,
+        700,
+        362,
+        386
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/galaxy.webp": {
+      "size": [
+        336,
+        156
+      ],
+      "canvas": [
+        362,
+        386
+      ],
+      "trim": [
+        14,
+        139
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        362,
+        700,
+        362,
+        386
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/ice.webp": {
+      "size": [
+        321,
+        333
+      ],
+      "canvas": [
+        362,
+        386
+      ],
+      "trim": [
+        29,
+        19
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        724,
+        700,
+        362,
+        386
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/headwear/lion.webp": {
+      "size": [
+        332,
+        318
+      ],
+      "canvas": [
+        362,
+        386
+      ],
+      "trim": [
+        14,
+        21
+      ],
+      "source": "/art/rig-v4/source/headwear.png",
+      "rect": [
+        1086,
+        700,
+        362,
+        386
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/base.webp": {
+      "size": [
+        317,
+        266
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        33,
+        26
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/rabbit.webp": {
+      "size": [
+        310,
+        256
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        30,
+        46
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        362,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/strawberry.webp": {
+      "size": [
+        319,
+        282
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        17,
+        58
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        724,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/bear.webp": {
+      "size": [
+        327,
+        279
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        4,
+        53
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        1086,
+        0,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/frog.webp": {
+      "size": [
+        318,
+        246
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        29,
+        39
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        0,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/nezha.webp": {
+      "size": [
+        314,
+        275
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        29,
+        40
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        362,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/lubu.webp": {
+      "size": [
+        306,
+        316
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        22,
+        0
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        724,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/guanyu.webp": {
+      "size": [
+        293,
+        265
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        18,
+        44
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        1086,
+        362,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/monkey.webp": {
+      "size": [
+        333,
+        280
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        24,
+        0
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        0,
+        724,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/galaxy.webp": {
+      "size": [
+        326,
+        270
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        19,
+        0
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        362,
+        724,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/ice.webp": {
+      "size": [
+        332,
+        264
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        19,
+        5
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        724,
+        724,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/hair/lion.webp": {
+      "size": [
+        325,
+        279
+      ],
+      "canvas": [
+        362,
+        362
+      ],
+      "trim": [
+        14,
+        0
+      ],
+      "source": "/art/rig-v4/source/hair.png",
+      "rect": [
+        1086,
+        724,
+        362,
+        362
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/face/idle.webp": {
+      "size": [
+        420,
+        412
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "trim": [
+        75,
+        57
+      ],
+      "source": "/art/rig-v4/source/face.png",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/face/blink.webp": {
+      "size": [
+        420,
+        412
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "trim": [
+        45,
+        57
+      ],
+      "source": "/art/rig-v4/source/face.png",
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/face/happy.webp": {
+      "size": [
+        419,
+        412
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "trim": [
+        14,
+        57
+      ],
+      "source": "/art/rig-v4/source/face.png",
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/face/blush.webp": {
+      "size": [
+        420,
+        413
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "trim": [
+        75,
+        42
+      ],
+      "source": "/art/rig-v4/source/face.png",
+      "rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/face/angry.webp": {
+      "size": [
+        420,
+        413
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "trim": [
+        45,
+        42
+      ],
+      "source": "/art/rig-v4/source/face.png",
+      "rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/face/sad.webp": {
+      "size": [
+        419,
+        413
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "trim": [
+        14,
+        42
+      ],
+      "source": "/art/rig-v4/source/face.png",
+      "rect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/detail/grip-right.webp": {
+      "size": [
+        374,
+        429
+      ],
+      "canvas": [
+        701,
+        561
+      ],
+      "trim": [
+        192,
+        72
+      ],
+      "source": "/art/rig-v4/source/detail.png",
+      "rect": [
+        0,
+        0,
+        701,
+        561
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/detail/grip-left.webp": {
+      "size": [
+        374,
+        429
+      ],
+      "canvas": [
+        701,
+        561
+      ],
+      "trim": [
+        136,
+        72
+      ],
+      "source": "/art/rig-v4/source/detail.png",
+      "rect": [
+        701,
+        0,
+        701,
+        561
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/detail/beard.webp": {
+      "size": [
+        454,
+        469
+      ],
+      "canvas": [
+        701,
+        561
+      ],
+      "trim": [
+        154,
+        36
+      ],
+      "source": "/art/rig-v4/source/detail.png",
+      "rect": [
+        0,
+        561,
+        701,
+        561
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/detail/mark.webp": {
+      "size": [
+        276,
+        412
+      ],
+      "canvas": [
+        701,
+        561
+      ],
+      "trim": [
+        228,
+        62
+      ],
+      "source": "/art/rig-v4/source/detail.png",
+      "rect": [
+        701,
+        561,
+        701,
+        561
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/lower/strawberry-pants.webp": {
+      "size": [
+        796,
+        555
+      ],
+      "canvas": [
+        972,
+        809
+      ],
+      "trim": [
+        89,
+        152
+      ],
+      "source": "/art/rig-v4/source/lower.png",
+      "rect": [
+        0,
+        0,
+        972,
+        809
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig-v4/lower/strawberry-skirt.webp": {
+      "size": [
+        949,
+        554
+      ],
+      "canvas": [
+        972,
+        809
+      ],
+      "trim": [
+        13,
+        147
+      ],
+      "source": "/art/rig-v4/source/lower.png",
+      "rect": [
+        972,
+        0,
+        972,
+        809
+      ],
+      "registration": "trim-preserved"
+    },
+    "/art/rig/base/angry.webp": {
+      "size": [
+        312,
+        317
+      ],
+      "canvas": [
+        313,
+        336
+      ],
+      "trim": [
+        1,
+        8
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        336
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/armL.webp": {
+      "size": [
+        216,
+        225
+      ],
+      "canvas": [
+        313,
+        302
+      ],
+      "trim": [
+        50,
+        36
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        627,
+        336,
+        313,
+        302
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/armR.webp": {
+      "size": [
+        209,
+        224
+      ],
+      "canvas": [
+        313,
+        302
+      ],
+      "trim": [
+        55,
+        37
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        940,
+        336,
+        313,
+        302
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/back.webp": {
+      "size": [
+        280,
+        291
+      ],
+      "canvas": [
+        313,
+        363
+      ],
+      "trim": [
+        32,
+        24
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        0,
+        891,
+        313,
+        363
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/blush.webp": {
+      "size": [
+        313,
+        318
+      ],
+      "canvas": [
+        313,
+        336
+      ],
+      "trim": [
+        0,
+        9
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        336
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/effect.webp": {
+      "size": [
+        303,
+        230
+      ],
+      "canvas": [
+        313,
+        363
+      ],
+      "trim": [
+        10,
+        70
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        627,
+        891,
+        313,
+        363
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/foreL.webp": {
+      "size": [
+        252,
+        210
+      ],
+      "canvas": [
+        313,
+        253
+      ],
+      "trim": [
+        39,
+        17
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        0,
+        638,
+        313,
+        253
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/foreR.webp": {
+      "size": [
+        230,
+        224
+      ],
+      "canvas": [
+        313,
+        253
+      ],
+      "trim": [
+        64,
+        17
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        313,
+        638,
+        313,
+        253
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/hand.webp": {
+      "size": [
+        211,
+        340
+      ],
+      "canvas": [
+        313,
+        363
+      ],
+      "trim": [
+        59,
+        0
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        313,
+        891,
+        313,
+        363
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/happy.webp": {
+      "size": [
+        310,
+        315
+      ],
+      "canvas": [
+        313,
+        336
+      ],
+      "trim": [
+        0,
+        9
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        336
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/hat.webp": {
+      "size": [
+        230,
+        280
+      ],
+      "canvas": [
+        313,
+        363
+      ],
+      "trim": [
+        56,
+        38
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        940,
+        891,
+        313,
+        363
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/head.webp": {
+      "size": [
+        313,
+        315
+      ],
+      "canvas": [
+        313,
+        336
+      ],
+      "trim": [
+        0,
+        9
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        336
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/pants.webp": {
+      "size": [
+        267,
+        217
+      ],
+      "canvas": [
+        313,
+        302
+      ],
+      "trim": [
+        46,
+        59
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        313,
+        336,
+        313,
+        302
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/shoeL.webp": {
+      "size": [
+        198,
+        203
+      ],
+      "canvas": [
+        313,
+        253
+      ],
+      "trim": [
+        33,
+        29
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        627,
+        638,
+        313,
+        253
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/shoeR.webp": {
+      "size": [
+        215,
+        209
+      ],
+      "canvas": [
+        313,
+        253
+      ],
+      "trim": [
+        66,
+        23
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        940,
+        638,
+        313,
+        253
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/base/top.webp": {
+      "size": [
+        293,
+        193
+      ],
+      "canvas": [
+        313,
+        201
+      ],
+      "trim": [
+        20,
+        8
+      ],
+      "source": "work/art-source/base-atlas.png",
+      "rect": [
+        0,
+        336,
+        313,
+        201
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/angry-clean.webp": {
+      "size": [
+        238,
+        228
+      ],
+      "canvas": [
+        238,
+        228
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/rabbit/angry.webp": {
+      "size": [
+        311,
+        310
+      ],
+      "canvas": [
+        313,
+        365
+      ],
+      "trim": [
+        0,
+        37
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        365
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/armL.webp": {
+      "size": [
+        188,
+        228
+      ],
+      "canvas": [
+        313,
+        304
+      ],
+      "trim": [
+        75,
+        40
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        627,
+        365,
+        313,
+        304
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/armR.webp": {
+      "size": [
+        185,
+        228
+      ],
+      "canvas": [
+        313,
+        304
+      ],
+      "trim": [
+        59,
+        39
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        940,
+        365,
+        313,
+        304
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/back.webp": {
+      "size": [
+        277,
+        294
+      ],
+      "canvas": [
+        313,
+        324
+      ],
+      "trim": [
+        35,
+        0
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        0,
+        930,
+        313,
+        324
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/blush-clean.webp": {
+      "size": [
+        245,
+        229
+      ],
+      "canvas": [
+        245,
+        229
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/rabbit/blush.webp": {
+      "size": [
+        313,
+        303
+      ],
+      "canvas": [
+        313,
+        365
+      ],
+      "trim": [
+        0,
+        42
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        365
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/effect.webp": {
+      "size": [
+        301,
+        152
+      ],
+      "canvas": [
+        313,
+        324
+      ],
+      "trim": [
+        2,
+        135
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        627,
+        930,
+        313,
+        324
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/foreL.webp": {
+      "size": [
+        176,
+        194
+      ],
+      "canvas": [
+        313,
+        261
+      ],
+      "trim": [
+        81,
+        25
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        0,
+        669,
+        313,
+        261
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/foreR.webp": {
+      "size": [
+        234,
+        196
+      ],
+      "canvas": [
+        313,
+        261
+      ],
+      "trim": [
+        53,
+        25
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        313,
+        669,
+        313,
+        261
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/hand.webp": {
+      "size": [
+        230,
+        289
+      ],
+      "canvas": [
+        313,
+        324
+      ],
+      "trim": [
+        76,
+        1
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        313,
+        930,
+        313,
+        324
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/happy-clean.webp": {
+      "size": [
+        255,
+        229
+      ],
+      "canvas": [
+        255,
+        229
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/rabbit/happy.webp": {
+      "size": [
+        313,
+        302
+      ],
+      "canvas": [
+        313,
+        365
+      ],
+      "trim": [
+        0,
+        44
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        365
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/hat.webp": {
+      "size": [
+        295,
+        261
+      ],
+      "canvas": [
+        313,
+        324
+      ],
+      "trim": [
+        2,
+        29
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        940,
+        930,
+        313,
+        324
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/head-clean.webp": {
+      "size": [
+        261,
+        229
+      ],
+      "canvas": [
+        261,
+        229
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/rabbit/head.webp": {
+      "size": [
+        305,
+        304
+      ],
+      "canvas": [
+        313,
+        365
+      ],
+      "trim": [
+        8,
+        44
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        365
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/pants.webp": {
+      "size": [
+        266,
+        261
+      ],
+      "canvas": [
+        313,
+        304
+      ],
+      "trim": [
+        44,
+        22
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        313,
+        365,
+        313,
+        304
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/shoeL.webp": {
+      "size": [
+        197,
+        234
+      ],
+      "canvas": [
+        313,
+        261
+      ],
+      "trim": [
+        46,
+        18
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        627,
+        669,
+        313,
+        261
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/shoeR.webp": {
+      "size": [
+        230,
+        231
+      ],
+      "canvas": [
+        313,
+        261
+      ],
+      "trim": [
+        51,
+        22
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        940,
+        669,
+        313,
+        261
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/rabbit/top.webp": {
+      "size": [
+        273,
+        251
+      ],
+      "canvas": [
+        313,
+        304
+      ],
+      "trim": [
+        40,
+        26
+      ],
+      "source": "work/art-source/rabbit-atlas.png",
+      "rect": [
+        0,
+        365,
+        313,
+        304
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/angry-clean.webp": {
+      "size": [
+        266,
+        231
+      ],
+      "canvas": [
+        266,
+        231
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/strawberry/angry.webp": {
+      "size": [
+        310,
+        298
+      ],
+      "canvas": [
+        313,
+        317
+      ],
+      "trim": [
+        0,
+        13
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        317
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/armL.webp": {
+      "size": [
+        147,
+        251
+      ],
+      "canvas": [
+        313,
+        301
+      ],
+      "trim": [
+        86,
+        30
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        627,
+        317,
+        313,
+        301
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/armR.webp": {
+      "size": [
+        149,
+        247
+      ],
+      "canvas": [
+        313,
+        301
+      ],
+      "trim": [
+        69,
+        36
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        940,
+        317,
+        313,
+        301
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/back.webp": {
+      "size": [
+        302,
+        258
+      ],
+      "canvas": [
+        313,
+        357
+      ],
+      "trim": [
+        11,
+        42
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        0,
+        897,
+        313,
+        357
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/blush-clean.webp": {
+      "size": [
+        268,
+        231
+      ],
+      "canvas": [
+        268,
+        231
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/strawberry/blush.webp": {
+      "size": [
+        307,
+        295
+      ],
+      "canvas": [
+        313,
+        317
+      ],
+      "trim": [
+        4,
+        13
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        317
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/effect.webp": {
+      "size": [
+        309,
+        280
+      ],
+      "canvas": [
+        313,
+        357
+      ],
+      "trim": [
+        0,
+        33
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        627,
+        897,
+        313,
+        357
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/foreL.webp": {
+      "size": [
+        210,
+        233
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        34,
+        23
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        0,
+        618,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/foreR.webp": {
+      "size": [
+        209,
+        233
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        68,
+        23
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        313,
+        618,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/hand.webp": {
+      "size": [
+        187,
+        326
+      ],
+      "canvas": [
+        313,
+        357
+      ],
+      "trim": [
+        64,
+        0
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        313,
+        897,
+        313,
+        357
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/happy-clean.webp": {
+      "size": [
+        273,
+        231
+      ],
+      "canvas": [
+        273,
+        231
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/strawberry/happy.webp": {
+      "size": [
+        309,
+        295
+      ],
+      "canvas": [
+        313,
+        317
+      ],
+      "trim": [
+        4,
+        13
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        317
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/hat.webp": {
+      "size": [
+        296,
+        187
+      ],
+      "canvas": [
+        313,
+        357
+      ],
+      "trim": [
+        7,
+        90
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        940,
+        897,
+        313,
+        357
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/head-clean.webp": {
+      "size": [
+        273,
+        231
+      ],
+      "canvas": [
+        273,
+        231
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/strawberry/head.webp": {
+      "size": [
+        308,
+        295
+      ],
+      "canvas": [
+        313,
+        317
+      ],
+      "trim": [
+        5,
+        13
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        317
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/pants.webp": {
+      "size": [
+        283,
+        220
+      ],
+      "canvas": [
+        313,
+        301
+      ],
+      "trim": [
+        30,
+        40
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        313,
+        317,
+        313,
+        301
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/shoeL.webp": {
+      "size": [
+        230,
+        229
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        24,
+        29
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        627,
+        618,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/shoeR.webp": {
+      "size": [
+        231,
+        227
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        56,
+        31
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        940,
+        618,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/strawberry/top.webp": {
+      "size": [
+        301,
+        286
+      ],
+      "canvas": [
+        313,
+        301
+      ],
+      "trim": [
+        12,
+        6
+      ],
+      "source": "work/art-source/strawberry-atlas.png",
+      "rect": [
+        0,
+        317,
+        313,
+        301
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/angry-clean.webp": {
+      "size": [
+        272,
+        233
+      ],
+      "canvas": [
+        272,
+        233
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/bear/angry.webp": {
+      "size": [
+        297,
+        300
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        11,
+        25
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/armL.webp": {
+      "size": [
+        141,
+        261
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        69,
+        5
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        627,
+        340,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/armR.webp": {
+      "size": [
+        137,
+        261
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        107,
+        6
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        940,
+        340,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/back.webp": {
+      "size": [
+        293,
+        295
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        20,
+        17
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        0,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/blush-clean.webp": {
+      "size": [
+        269,
+        234
+      ],
+      "canvas": [
+        269,
+        234
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/bear/blush.webp": {
+      "size": [
+        294,
+        298
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        19,
+        27
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/effect.webp": {
+      "size": [
+        307,
+        196
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        6,
+        101
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        627,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/foreL.webp": {
+      "size": [
+        178,
+        262
+      ],
+      "canvas": [
+        313,
+        282
+      ],
+      "trim": [
+        87,
+        7
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        0,
+        619,
+        313,
+        282
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/foreR.webp": {
+      "size": [
+        171,
+        265
+      ],
+      "canvas": [
+        313,
+        282
+      ],
+      "trim": [
+        71,
+        7
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        313,
+        619,
+        313,
+        282
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/hand.webp": {
+      "size": [
+        271,
+        288
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        35,
+        21
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        313,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/happy-clean.webp": {
+      "size": [
+        272,
+        234
+      ],
+      "canvas": [
+        272,
+        234
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/bear/happy.webp": {
+      "size": [
+        289,
+        295
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        24,
+        27
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/hat.webp": {
+      "size": [
+        287,
+        268
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        13,
+        16
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        940,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/head-clean.webp": {
+      "size": [
+        269,
+        234
+      ],
+      "canvas": [
+        269,
+        234
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/bear/head.webp": {
+      "size": [
+        289,
+        297
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        24,
+        27
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/pants.webp": {
+      "size": [
+        250,
+        259
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        55,
+        11
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        313,
+        340,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/shoeL.webp": {
+      "size": [
+        236,
+        223
+      ],
+      "canvas": [
+        313,
+        282
+      ],
+      "trim": [
+        39,
+        38
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        627,
+        619,
+        313,
+        282
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/shoeR.webp": {
+      "size": [
+        240,
+        223
+      ],
+      "canvas": [
+        313,
+        282
+      ],
+      "trim": [
+        33,
+        39
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        940,
+        619,
+        313,
+        282
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/bear/top.webp": {
+      "size": [
+        289,
+        256
+      ],
+      "canvas": [
+        313,
+        279
+      ],
+      "trim": [
+        24,
+        8
+      ],
+      "source": "work/art-source/bear-atlas.png",
+      "rect": [
+        0,
+        340,
+        313,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/angry-clean.webp": {
+      "size": [
+        275,
+        244
+      ],
+      "canvas": [
+        275,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/frog/angry.webp": {
+      "size": [
+        300,
+        319
+      ],
+      "canvas": [
+        313,
+        347
+      ],
+      "trim": [
+        0,
+        18
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        347
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/armL.webp": {
+      "size": [
+        149,
+        242
+      ],
+      "canvas": [
+        313,
+        277
+      ],
+      "trim": [
+        69,
+        16
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        627,
+        347,
+        313,
+        277
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/armR.webp": {
+      "size": [
+        148,
+        242
+      ],
+      "canvas": [
+        313,
+        277
+      ],
+      "trim": [
+        63,
+        16
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        940,
+        347,
+        313,
+        277
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/back.webp": {
+      "size": [
+        284,
+        277
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        29,
+        14
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        0,
+        914,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/blush-clean.webp": {
+      "size": [
+        273,
+        244
+      ],
+      "canvas": [
+        273,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/frog/blush.webp": {
+      "size": [
+        306,
+        319
+      ],
+      "canvas": [
+        313,
+        347
+      ],
+      "trim": [
+        0,
+        18
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        347
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/effect.webp": {
+      "size": [
+        304,
+        176
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        3,
+        118
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        627,
+        914,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/foreL.webp": {
+      "size": [
+        166,
+        249
+      ],
+      "canvas": [
+        313,
+        290
+      ],
+      "trim": [
+        66,
+        17
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        0,
+        624,
+        313,
+        290
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/foreR.webp": {
+      "size": [
+        174,
+        241
+      ],
+      "canvas": [
+        313,
+        290
+      ],
+      "trim": [
+        80,
+        13
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        313,
+        624,
+        313,
+        290
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/hand.webp": {
+      "size": [
+        295,
+        300
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        7,
+        0
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        313,
+        914,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/happy-clean.webp": {
+      "size": [
+        275,
+        244
+      ],
+      "canvas": [
+        275,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/frog/happy.webp": {
+      "size": [
+        304,
+        319
+      ],
+      "canvas": [
+        313,
+        347
+      ],
+      "trim": [
+        9,
+        18
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        347
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/hat.webp": {
+      "size": [
+        280,
+        302
+      ],
+      "canvas": [
+        313,
+        340
+      ],
+      "trim": [
+        12,
+        9
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        940,
+        914,
+        313,
+        340
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/head-clean.webp": {
+      "size": [
+        275,
+        244
+      ],
+      "canvas": [
+        275,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/frog/head.webp": {
+      "size": [
+        296,
+        319
+      ],
+      "canvas": [
+        313,
+        347
+      ],
+      "trim": [
+        17,
+        19
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        347
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/pants.webp": {
+      "size": [
+        283,
+        219
+      ],
+      "canvas": [
+        313,
+        277
+      ],
+      "trim": [
+        30,
+        29
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        313,
+        347,
+        313,
+        277
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/shoeL.webp": {
+      "size": [
+        212,
+        238
+      ],
+      "canvas": [
+        313,
+        290
+      ],
+      "trim": [
+        27,
+        29
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        627,
+        624,
+        313,
+        290
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/shoeR.webp": {
+      "size": [
+        215,
+        238
+      ],
+      "canvas": [
+        313,
+        290
+      ],
+      "trim": [
+        61,
+        30
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        940,
+        624,
+        313,
+        290
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/frog/top.webp": {
+      "size": [
+        292,
+        248
+      ],
+      "canvas": [
+        313,
+        277
+      ],
+      "trim": [
+        21,
+        19
+      ],
+      "source": "work/art-source/frog-atlas.png",
+      "rect": [
+        0,
+        347,
+        313,
+        277
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/angry.webp": {
+      "size": [
+        301,
+        299
+      ],
+      "canvas": [
+        309,
+        335
+      ],
+      "trim": [
+        0,
+        30
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        945,
+        0,
+        309,
+        335
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/armL.webp": {
+      "size": [
+        118,
+        155
+      ],
+      "canvas": [
+        175,
+        159
+      ],
+      "trim": [
+        19,
+        4
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        707,
+        342,
+        175,
+        159
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/armR.webp": {
+      "size": [
+        120,
+        155
+      ],
+      "canvas": [
+        235,
+        159
+      ],
+      "trim": [
+        40,
+        4
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        963,
+        342,
+        235,
+        159
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/back.webp": {
+      "size": [
+        302,
+        297
+      ],
+      "canvas": [
+        334,
+        352
+      ],
+      "trim": [
+        22,
+        7
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        0,
+        902,
+        334,
+        352
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/blush.webp": {
+      "size": [
+        295,
+        303
+      ],
+      "canvas": [
+        307,
+        335
+      ],
+      "trim": [
+        0,
+        27
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        638,
+        0,
+        307,
+        335
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/effect.webp": {
+      "size": [
+        284,
+        316
+      ],
+      "canvas": [
+        323,
+        364
+      ],
+      "trim": [
+        22,
+        6
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        622,
+        890,
+        323,
+        364
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/foreL.webp": {
+      "size": [
+        142,
+        261
+      ],
+      "canvas": [
+        204,
+        279
+      ],
+      "trim": [
+        46,
+        12
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        53,
+        622,
+        204,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/foreR.webp": {
+      "size": [
+        160,
+        257
+      ],
+      "canvas": [
+        215,
+        279
+      ],
+      "trim": [
+        26,
+        12
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        391,
+        622,
+        215,
+        279
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/hand.webp": {
+      "size": [
+        261,
+        258
+      ],
+      "canvas": [
+        284,
+        325
+      ],
+      "trim": [
+        12,
+        26
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        337,
+        902,
+        284,
+        325
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/happy.webp": {
+      "size": [
+        298,
+        303
+      ],
+      "canvas": [
+        308,
+        335
+      ],
+      "trim": [
+        0,
+        27
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        330,
+        0,
+        308,
+        335
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/hat.webp": {
+      "size": [
+        282,
+        313
+      ],
+      "canvas": [
+        300,
+        352
+      ],
+      "trim": [
+        0,
+        8
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        954,
+        902,
+        300,
+        352
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/head.webp": {
+      "size": [
+        305,
+        302
+      ],
+      "canvas": [
+        319,
+        335
+      ],
+      "trim": [
+        13,
+        24
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        0,
+        0,
+        319,
+        335
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/pants.webp": {
+      "size": [
+        337,
+        247
+      ],
+      "canvas": [
+        362,
+        281
+      ],
+      "trim": [
+        9,
+        25
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        330,
+        337,
+        362,
+        281
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/shoeL.webp": {
+      "size": [
+        209,
+        207
+      ],
+      "canvas": [
+        239,
+        247
+      ],
+      "trim": [
+        20,
+        13
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        641,
+        648,
+        239,
+        247
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/shoeR.webp": {
+      "size": [
+        208,
+        206
+      ],
+      "canvas": [
+        257,
+        247
+      ],
+      "trim": [
+        29,
+        15
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        973,
+        648,
+        257,
+        247
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/nezha/top.webp": {
+      "size": [
+        269,
+        254
+      ],
+      "canvas": [
+        329,
+        281
+      ],
+      "trim": [
+        46,
+        7
+      ],
+      "source": "work/art-source/nezha-atlas.png",
+      "rect": [
+        0,
+        334,
+        329,
+        281
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/angry-clean.webp": {
+      "size": [
+        259,
+        247
+      ],
+      "canvas": [
+        259,
+        247
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lubu/angry.webp": {
+      "size": [
+        298,
+        320
+      ],
+      "canvas": [
+        313,
+        348
+      ],
+      "trim": [
+        0,
+        14
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        348
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/armL.webp": {
+      "size": [
+        187,
+        243
+      ],
+      "canvas": [
+        313,
+        280
+      ],
+      "trim": [
+        56,
+        21
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        627,
+        348,
+        313,
+        280
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/armR.webp": {
+      "size": [
+        198,
+        242
+      ],
+      "canvas": [
+        313,
+        280
+      ],
+      "trim": [
+        64,
+        22
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        940,
+        348,
+        313,
+        280
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/back.webp": {
+      "size": [
+        300,
+        328
+      ],
+      "canvas": [
+        313,
+        361
+      ],
+      "trim": [
+        9,
+        0
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        0,
+        893,
+        313,
+        361
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/blush-clean.webp": {
+      "size": [
+        257,
+        247
+      ],
+      "canvas": [
+        257,
+        247
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lubu/blush.webp": {
+      "size": [
+        302,
+        318
+      ],
+      "canvas": [
+        313,
+        348
+      ],
+      "trim": [
+        0,
+        13
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        348
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/effect.webp": {
+      "size": [
+        307,
+        228
+      ],
+      "canvas": [
+        313,
+        361
+      ],
+      "trim": [
+        0,
+        83
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        627,
+        893,
+        313,
+        361
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/foreL.webp": {
+      "size": [
+        185,
+        225
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        76,
+        16
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        0,
+        628,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/foreR.webp": {
+      "size": [
+        156,
+        235
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        94,
+        13
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        313,
+        628,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/hand.webp": {
+      "size": [
+        279,
+        331
+      ],
+      "canvas": [
+        313,
+        361
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        313,
+        893,
+        313,
+        361
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/happy-clean.webp": {
+      "size": [
+        257,
+        247
+      ],
+      "canvas": [
+        257,
+        247
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lubu/happy.webp": {
+      "size": [
+        302,
+        318
+      ],
+      "canvas": [
+        313,
+        348
+      ],
+      "trim": [
+        0,
+        13
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        348
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/hat.webp": {
+      "size": [
+        302,
+        272
+      ],
+      "canvas": [
+        313,
+        361
+      ],
+      "trim": [
+        0,
+        42
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        940,
+        893,
+        313,
+        361
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/head-clean.webp": {
+      "size": [
+        258,
+        245
+      ],
+      "canvas": [
+        258,
+        245
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lubu/head.webp": {
+      "size": [
+        302,
+        318
+      ],
+      "canvas": [
+        313,
+        348
+      ],
+      "trim": [
+        0,
+        13
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        348
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/pants.webp": {
+      "size": [
+        284,
+        230
+      ],
+      "canvas": [
+        313,
+        280
+      ],
+      "trim": [
+        27,
+        30
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        313,
+        348,
+        313,
+        280
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/shoeL.webp": {
+      "size": [
+        183,
+        238
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        39,
+        14
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        627,
+        628,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/shoeR.webp": {
+      "size": [
+        191,
+        237
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        68,
+        14
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        940,
+        628,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lubu/top.webp": {
+      "size": [
+        281,
+        262
+      ],
+      "canvas": [
+        313,
+        280
+      ],
+      "trim": [
+        19,
+        17
+      ],
+      "source": "work/art-source/lubu-atlas.png",
+      "rect": [
+        0,
+        348,
+        313,
+        280
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/angry-clean.webp": {
+      "size": [
+        255,
+        376
+      ],
+      "canvas": [
+        255,
+        376
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/guanyu/angry.webp": {
+      "size": [
+        296,
+        327
+      ],
+      "canvas": [
+        313,
+        337
+      ],
+      "trim": [
+        0,
+        10
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        337
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/armL.webp": {
+      "size": [
+        209,
+        226
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        56,
+        24
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        627,
+        337,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/armR.webp": {
+      "size": [
+        209,
+        224
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        46,
+        26
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        940,
+        337,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/back.webp": {
+      "size": [
+        293,
+        311
+      ],
+      "canvas": [
+        313,
+        360
+      ],
+      "trim": [
+        20,
+        15
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        0,
+        894,
+        313,
+        360
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/blush-clean.webp": {
+      "size": [
+        258,
+        376
+      ],
+      "canvas": [
+        258,
+        376
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/guanyu/blush.webp": {
+      "size": [
+        284,
+        327
+      ],
+      "canvas": [
+        313,
+        337
+      ],
+      "trim": [
+        0,
+        10
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        337
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/effect.webp": {
+      "size": [
+        299,
+        325
+      ],
+      "canvas": [
+        313,
+        360
+      ],
+      "trim": [
+        5,
+        7
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        627,
+        894,
+        313,
+        360
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/foreL.webp": {
+      "size": [
+        221,
+        246
+      ],
+      "canvas": [
+        313,
+        270
+      ],
+      "trim": [
+        72,
+        15
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        0,
+        624,
+        313,
+        270
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/foreR.webp": {
+      "size": [
+        192,
+        232
+      ],
+      "canvas": [
+        313,
+        270
+      ],
+      "trim": [
+        63,
+        15
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        313,
+        624,
+        313,
+        270
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/hand.webp": {
+      "size": [
+        310,
+        316
+      ],
+      "canvas": [
+        313,
+        360
+      ],
+      "trim": [
+        3,
+        0
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        313,
+        894,
+        313,
+        360
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/happy-clean.webp": {
+      "size": [
+        256,
+        376
+      ],
+      "canvas": [
+        256,
+        376
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/guanyu/happy.webp": {
+      "size": [
+        293,
+        326
+      ],
+      "canvas": [
+        313,
+        337
+      ],
+      "trim": [
+        10,
+        11
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        337
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/hat.webp": {
+      "size": [
+        300,
+        302
+      ],
+      "canvas": [
+        313,
+        360
+      ],
+      "trim": [
+        0,
+        19
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        940,
+        894,
+        313,
+        360
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/head-clean.webp": {
+      "size": [
+        256,
+        376
+      ],
+      "canvas": [
+        256,
+        376
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/guanyu/head.webp": {
+      "size": [
+        290,
+        323
+      ],
+      "canvas": [
+        313,
+        337
+      ],
+      "trim": [
+        19,
+        11
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        337
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/pants.webp": {
+      "size": [
+        259,
+        249
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        30,
+        19
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        313,
+        337,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/shoeL.webp": {
+      "size": [
+        203,
+        210
+      ],
+      "canvas": [
+        313,
+        270
+      ],
+      "trim": [
+        23,
+        24
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        627,
+        624,
+        313,
+        270
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/shoeR.webp": {
+      "size": [
+        202,
+        217
+      ],
+      "canvas": [
+        313,
+        270
+      ],
+      "trim": [
+        79,
+        19
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        940,
+        624,
+        313,
+        270
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/guanyu/top.webp": {
+      "size": [
+        292,
+        279
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        21,
+        0
+      ],
+      "source": "work/art-source/guanyu-atlas.png",
+      "rect": [
+        0,
+        337,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/angry-clean.webp": {
+      "size": [
+        257,
+        239
+      ],
+      "canvas": [
+        257,
+        239
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/monkey/angry.webp": {
+      "size": [
+        296,
+        294
+      ],
+      "canvas": [
+        313,
+        312
+      ],
+      "trim": [
+        4,
+        15
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        312
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/armL.webp": {
+      "size": [
+        226,
+        254
+      ],
+      "canvas": [
+        313,
+        302
+      ],
+      "trim": [
+        28,
+        22
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        627,
+        312,
+        313,
+        302
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/armR.webp": {
+      "size": [
+        229,
+        254
+      ],
+      "canvas": [
+        313,
+        302
+      ],
+      "trim": [
+        56,
+        22
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        940,
+        312,
+        313,
+        302
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/back.webp": {
+      "size": [
+        297,
+        318
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        16,
+        5
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        0,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/blush-clean.webp": {
+      "size": [
+        255,
+        240
+      ],
+      "canvas": [
+        255,
+        240
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/monkey/blush.webp": {
+      "size": [
+        294,
+        294
+      ],
+      "canvas": [
+        313,
+        312
+      ],
+      "trim": [
+        8,
+        16
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        312
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/effect.webp": {
+      "size": [
+        313,
+        300
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        0,
+        13
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        627,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/foreL.webp": {
+      "size": [
+        141,
+        263
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        70,
+        13
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        0,
+        614,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/foreR.webp": {
+      "size": [
+        184,
+        261
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        91,
+        18
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        313,
+        614,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/hand.webp": {
+      "size": [
+        278,
+        323
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        11,
+        1
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        313,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/happy-clean.webp": {
+      "size": [
+        254,
+        240
+      ],
+      "canvas": [
+        254,
+        240
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/monkey/happy.webp": {
+      "size": [
+        294,
+        295
+      ],
+      "canvas": [
+        313,
+        312
+      ],
+      "trim": [
+        12,
+        12
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        312
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/hat.webp": {
+      "size": [
+        286,
+        300
+      ],
+      "canvas": [
+        313,
+        353
+      ],
+      "trim": [
+        13,
+        17
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        940,
+        901,
+        313,
+        353
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/head-clean.webp": {
+      "size": [
+        255,
+        239
+      ],
+      "canvas": [
+        255,
+        239
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/monkey/head.webp": {
+      "size": [
+        302,
+        297
+      ],
+      "canvas": [
+        313,
+        312
+      ],
+      "trim": [
+        8,
+        14
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        312
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/pants.webp": {
+      "size": [
+        297,
+        266
+      ],
+      "canvas": [
+        313,
+        302
+      ],
+      "trim": [
+        8,
+        17
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        313,
+        312,
+        313,
+        302
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/shoeL.webp": {
+      "size": [
+        210,
+        256
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        27,
+        9
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        627,
+        614,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/shoeR.webp": {
+      "size": [
+        206,
+        254
+      ],
+      "canvas": [
+        313,
+        287
+      ],
+      "trim": [
+        70,
+        14
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        940,
+        614,
+        313,
+        287
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/monkey/top.webp": {
+      "size": [
+        277,
+        283
+      ],
+      "canvas": [
+        313,
+        302
+      ],
+      "trim": [
+        16,
+        8
+      ],
+      "source": "work/art-source/monkey-atlas.png",
+      "rect": [
+        0,
+        312,
+        313,
+        302
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/angry-clean.webp": {
+      "size": [
+        285,
+        276
+      ],
+      "canvas": [
+        285,
+        276
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/galaxy/angry.webp": {
+      "size": [
+        311,
+        317
+      ],
+      "canvas": [
+        313,
+        330
+      ],
+      "trim": [
+        0,
+        8
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        330
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/armL.webp": {
+      "size": [
+        152,
+        228
+      ],
+      "canvas": [
+        313,
+        303
+      ],
+      "trim": [
+        76,
+        36
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        627,
+        330,
+        313,
+        303
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/armR.webp": {
+      "size": [
+        154,
+        229
+      ],
+      "canvas": [
+        313,
+        303
+      ],
+      "trim": [
+        86,
+        35
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        940,
+        330,
+        313,
+        303
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/back.webp": {
+      "size": [
+        303,
+        310
+      ],
+      "canvas": [
+        313,
+        356
+      ],
+      "trim": [
+        10,
+        19
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        0,
+        898,
+        313,
+        356
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/blush-clean.webp": {
+      "size": [
+        268,
+        276
+      ],
+      "canvas": [
+        268,
+        276
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/galaxy/blush.webp": {
+      "size": [
+        295,
+        320
+      ],
+      "canvas": [
+        313,
+        330
+      ],
+      "trim": [
+        0,
+        5
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        330
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/effect.webp": {
+      "size": [
+        308,
+        329
+      ],
+      "canvas": [
+        313,
+        356
+      ],
+      "trim": [
+        0,
+        17
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        627,
+        898,
+        313,
+        356
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/foreL.webp": {
+      "size": [
+        169,
+        253
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        90,
+        9
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        0,
+        633,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/foreR.webp": {
+      "size": [
+        173,
+        252
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        57,
+        10
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        313,
+        633,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/hand.webp": {
+      "size": [
+        287,
+        329
+      ],
+      "canvas": [
+        313,
+        356
+      ],
+      "trim": [
+        26,
+        0
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        313,
+        898,
+        313,
+        356
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/happy-clean.webp": {
+      "size": [
+        269,
+        276
+      ],
+      "canvas": [
+        269,
+        276
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/galaxy/happy.webp": {
+      "size": [
+        300,
+        312
+      ],
+      "canvas": [
+        313,
+        330
+      ],
+      "trim": [
+        0,
+        3
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        330
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/hat.webp": {
+      "size": [
+        299,
+        223
+      ],
+      "canvas": [
+        313,
+        356
+      ],
+      "trim": [
+        9,
+        63
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        940,
+        898,
+        313,
+        356
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/head-clean.webp": {
+      "size": [
+        271,
+        277
+      ],
+      "canvas": [
+        271,
+        277
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/galaxy/head.webp": {
+      "size": [
+        305,
+        308
+      ],
+      "canvas": [
+        313,
+        330
+      ],
+      "trim": [
+        2,
+        10
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        330
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/pants.webp": {
+      "size": [
+        262,
+        276
+      ],
+      "canvas": [
+        313,
+        303
+      ],
+      "trim": [
+        39,
+        13
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        313,
+        330,
+        313,
+        303
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/shoeL.webp": {
+      "size": [
+        250,
+        234
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        28,
+        14
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        627,
+        633,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/shoeR.webp": {
+      "size": [
+        248,
+        231
+      ],
+      "canvas": [
+        313,
+        265
+      ],
+      "trim": [
+        37,
+        17
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        940,
+        633,
+        313,
+        265
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/galaxy/top.webp": {
+      "size": [
+        252,
+        277
+      ],
+      "canvas": [
+        313,
+        303
+      ],
+      "trim": [
+        44,
+        12
+      ],
+      "source": "work/art-source/galaxy-atlas.png",
+      "rect": [
+        0,
+        330,
+        313,
+        303
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/angry-clean.webp": {
+      "size": [
+        266,
+        244
+      ],
+      "canvas": [
+        266,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/ice/angry.webp": {
+      "size": [
+        286,
+        296
+      ],
+      "canvas": [
+        313,
+        320
+      ],
+      "trim": [
+        14,
+        15
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        320
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/armL.webp": {
+      "size": [
+        156,
+        244
+      ],
+      "canvas": [
+        313,
+        296
+      ],
+      "trim": [
+        80,
+        21
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        627,
+        320,
+        313,
+        296
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/armR.webp": {
+      "size": [
+        155,
+        244
+      ],
+      "canvas": [
+        313,
+        296
+      ],
+      "trim": [
+        81,
+        21
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        940,
+        320,
+        313,
+        296
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/back.webp": {
+      "size": [
+        310,
+        316
+      ],
+      "canvas": [
+        313,
+        352
+      ],
+      "trim": [
+        3,
+        1
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        0,
+        902,
+        313,
+        352
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/blush-clean.webp": {
+      "size": [
+        263,
+        244
+      ],
+      "canvas": [
+        263,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/ice/blush.webp": {
+      "size": [
+        287,
+        294
+      ],
+      "canvas": [
+        313,
+        320
+      ],
+      "trim": [
+        11,
+        13
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        320
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/effect.webp": {
+      "size": [
+        290,
+        251
+      ],
+      "canvas": [
+        313,
+        352
+      ],
+      "trim": [
+        9,
+        73
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        627,
+        902,
+        313,
+        352
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/foreL.webp": {
+      "size": [
+        139,
+        252
+      ],
+      "canvas": [
+        313,
+        286
+      ],
+      "trim": [
+        81,
+        14
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        0,
+        616,
+        313,
+        286
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/foreR.webp": {
+      "size": [
+        129,
+        254
+      ],
+      "canvas": [
+        313,
+        286
+      ],
+      "trim": [
+        102,
+        14
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        313,
+        616,
+        313,
+        286
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/hand.webp": {
+      "size": [
+        204,
+        340
+      ],
+      "canvas": [
+        313,
+        352
+      ],
+      "trim": [
+        78,
+        0
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        313,
+        902,
+        313,
+        352
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/happy-clean.webp": {
+      "size": [
+        262,
+        244
+      ],
+      "canvas": [
+        262,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/ice/happy.webp": {
+      "size": [
+        289,
+        297
+      ],
+      "canvas": [
+        313,
+        320
+      ],
+      "trim": [
+        12,
+        12
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        320
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/hat.webp": {
+      "size": [
+        292,
+        249
+      ],
+      "canvas": [
+        313,
+        352
+      ],
+      "trim": [
+        11,
+        33
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        940,
+        902,
+        313,
+        352
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/head-clean.webp": {
+      "size": [
+        260,
+        244
+      ],
+      "canvas": [
+        260,
+        244
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/ice/head.webp": {
+      "size": [
+        288,
+        297
+      ],
+      "canvas": [
+        313,
+        320
+      ],
+      "trim": [
+        12,
+        11
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        320
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/pants.webp": {
+      "size": [
+        269,
+        239
+      ],
+      "canvas": [
+        313,
+        296
+      ],
+      "trim": [
+        31,
+        21
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        313,
+        320,
+        313,
+        296
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/shoeL.webp": {
+      "size": [
+        217,
+        252
+      ],
+      "canvas": [
+        313,
+        286
+      ],
+      "trim": [
+        46,
+        12
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        627,
+        616,
+        313,
+        286
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/shoeR.webp": {
+      "size": [
+        213,
+        254
+      ],
+      "canvas": [
+        313,
+        286
+      ],
+      "trim": [
+        57,
+        12
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        940,
+        616,
+        313,
+        286
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/ice/top.webp": {
+      "size": [
+        278,
+        272
+      ],
+      "canvas": [
+        313,
+        296
+      ],
+      "trim": [
+        26,
+        17
+      ],
+      "source": "work/art-source/ice-atlas.png",
+      "rect": [
+        0,
+        320,
+        313,
+        296
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/angry-clean.webp": {
+      "size": [
+        287,
+        275
+      ],
+      "canvas": [
+        287,
+        275
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lion/angry.webp": {
+      "size": [
+        291,
+        284
+      ],
+      "canvas": [
+        313,
+        306
+      ],
+      "trim": [
+        12,
+        6
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        940,
+        0,
+        313,
+        306
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/armL.webp": {
+      "size": [
+        187,
+        282
+      ],
+      "canvas": [
+        313,
+        315
+      ],
+      "trim": [
+        71,
+        16
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        627,
+        306,
+        313,
+        315
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/armR.webp": {
+      "size": [
+        185,
+        281
+      ],
+      "canvas": [
+        313,
+        315
+      ],
+      "trim": [
+        52,
+        17
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        940,
+        306,
+        313,
+        315
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/back.webp": {
+      "size": [
+        305,
+        329
+      ],
+      "canvas": [
+        313,
+        355
+      ],
+      "trim": [
+        8,
+        13
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        0,
+        899,
+        313,
+        355
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/blush-clean.webp": {
+      "size": [
+        268,
+        275
+      ],
+      "canvas": [
+        268,
+        275
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lion/blush.webp": {
+      "size": [
+        291,
+        284
+      ],
+      "canvas": [
+        313,
+        306
+      ],
+      "trim": [
+        12,
+        6
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        627,
+        0,
+        313,
+        306
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/effect.webp": {
+      "size": [
+        303,
+        263
+      ],
+      "canvas": [
+        313,
+        355
+      ],
+      "trim": [
+        6,
+        50
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        627,
+        899,
+        313,
+        355
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/foreL.webp": {
+      "size": [
+        156,
+        252
+      ],
+      "canvas": [
+        313,
+        278
+      ],
+      "trim": [
+        94,
+        18
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        0,
+        621,
+        313,
+        278
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/foreR.webp": {
+      "size": [
+        161,
+        255
+      ],
+      "canvas": [
+        313,
+        278
+      ],
+      "trim": [
+        88,
+        15
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        313,
+        621,
+        313,
+        278
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/hand.webp": {
+      "size": [
+        281,
+        316
+      ],
+      "canvas": [
+        313,
+        355
+      ],
+      "trim": [
+        24,
+        10
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        313,
+        899,
+        313,
+        355
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/happy-clean.webp": {
+      "size": [
+        269,
+        275
+      ],
+      "canvas": [
+        269,
+        275
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lion/happy.webp": {
+      "size": [
+        290,
+        284
+      ],
+      "canvas": [
+        313,
+        306
+      ],
+      "trim": [
+        13,
+        6
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        313,
+        0,
+        313,
+        306
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/hat.webp": {
+      "size": [
+        294,
+        228
+      ],
+      "canvas": [
+        313,
+        355
+      ],
+      "trim": [
+        10,
+        46
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        940,
+        899,
+        313,
+        355
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/head-clean.webp": {
+      "size": [
+        272,
+        275
+      ],
+      "canvas": [
+        272,
+        275
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "registration": "legacy-trimmed-source; original trim unavailable"
+    },
+    "/art/rig/lion/head.webp": {
+      "size": [
+        290,
+        284
+      ],
+      "canvas": [
+        313,
+        306
+      ],
+      "trim": [
+        13,
+        6
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        0,
+        0,
+        313,
+        306
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/pants.webp": {
+      "size": [
+        264,
+        260
+      ],
+      "canvas": [
+        313,
+        315
+      ],
+      "trim": [
+        33,
+        21
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        313,
+        306,
+        313,
+        315
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/shoeL.webp": {
+      "size": [
+        217,
+        252
+      ],
+      "canvas": [
+        313,
+        278
+      ],
+      "trim": [
+        29,
+        16
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        627,
+        621,
+        313,
+        278
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/shoeR.webp": {
+      "size": [
+        213,
+        252
+      ],
+      "canvas": [
+        313,
+        278
+      ],
+      "trim": [
+        72,
+        18
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        940,
+        621,
+        313,
+        278
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/lion/top.webp": {
+      "size": [
+        286,
+        288
+      ],
+      "canvas": [
+        313,
+        315
+      ],
+      "trim": [
+        13,
+        10
+      ],
+      "source": "work/art-source/lion-atlas.png",
+      "rect": [
+        0,
+        306,
+        313,
+        315
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/balloon.webp": {
+      "size": [
+        234,
+        391
+      ],
+      "canvas": [
+        350,
+        412
+      ],
+      "trim": [
+        64,
+        9
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        0,
+        674,
+        350,
+        412
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/cape.webp": {
+      "size": [
+        368,
+        299
+      ],
+      "canvas": [
+        376,
+        325
+      ],
+      "trim": [
+        6,
+        13
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        0,
+        344,
+        376,
+        325
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/crown.webp": {
+      "size": [
+        316,
+        232
+      ],
+      "canvas": [
+        353,
+        344
+      ],
+      "trim": [
+        19,
+        47
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        365,
+        0,
+        353,
+        344
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/flower.webp": {
+      "size": [
+        296,
+        388
+      ],
+      "canvas": [
+        340,
+        412
+      ],
+      "trim": [
+        15,
+        4
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        1108,
+        674,
+        340,
+        412
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/goggles.webp": {
+      "size": [
+        345,
+        183
+      ],
+      "canvas": [
+        390,
+        344
+      ],
+      "trim": [
+        15,
+        94
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        718,
+        0,
+        390,
+        344
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/lollipop.webp": {
+      "size": [
+        213,
+        367
+      ],
+      "canvas": [
+        265,
+        411
+      ],
+      "trim": [
+        26,
+        11
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        770,
+        675,
+        265,
+        411
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/rainbow-shirt.webp": {
+      "size": [
+        347,
+        266
+      ],
+      "canvas": [
+        353,
+        310
+      ],
+      "trim": [
+        3,
+        36
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        365,
+        350,
+        353,
+        310
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/scarf.webp": {
+      "size": [
+        270,
+        311
+      ],
+      "canvas": [
+        340,
+        344
+      ],
+      "trim": [
+        39,
+        24
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        1108,
+        0,
+        340,
+        344
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/star-clip.webp": {
+      "size": [
+        310,
+        218
+      ],
+      "canvas": [
+        362,
+        344
+      ],
+      "trim": [
+        33,
+        58
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        0,
+        0,
+        362,
+        344
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/star-pack.webp": {
+      "size": [
+        298,
+        311
+      ],
+      "canvas": [
+        340,
+        336
+      ],
+      "trim": [
+        10,
+        16
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        1108,
+        344,
+        340,
+        336
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/star-wand.webp": {
+      "size": [
+        188,
+        396
+      ],
+      "canvas": [
+        224,
+        426
+      ],
+      "trim": [
+        15,
+        7
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        430,
+        660,
+        224,
+        426
+      ],
+      "registration": "recovered-from-source"
+    },
+    "/art/rig/accessories/wings.webp": {
+      "size": [
+        367,
+        274
+      ],
+      "canvas": [
+        390,
+        310
+      ],
+      "trim": [
+        8,
+        26
+      ],
+      "source": "work/art-source/accessories-atlas.png",
+      "rect": [
+        718,
+        350,
+        390,
+        310
+      ],
+      "registration": "recovered-from-source"
+    }
+  }
+}

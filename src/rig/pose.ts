@@ -1,5 +1,5 @@
 export type Emotion='idle'|'happy'|'blush'|'angry'|'sad';
-export const JOINTS={root:[180,285],neck:[0,8],shoulderL:[-43,5],shoulderR:[43,5],elbow:[0,35],wrist:[0,30],hipL:[-24,68],hipR:[24,68],knee:[0,26],ankle:[0,18]} as const;
+export const JOINTS={root:[180,241],neck:[0,-8],shoulderL:[-50,8],shoulderR:[50,8],elbow:[0,35],wrist:[0,30],hipL:[-35,160],hipR:[35,160],knee:[0,26],ankle:[0,18]} as const;
 export type Pose={y:number;torso:number;head:number;armL:number;armR:number;foreL:number;foreR:number;legL:number;legR:number;ear:number;cloth1:number;cloth2:number;blink:number;cheeks:number;energy:number};
 /** Local-space angles keep joint origins fixed; every attachment inherits its parent bone. */
 export function evaluatePose(time:number,emotion:Emotion='idle',age=10,skin='base',reduced=false):Pose {
